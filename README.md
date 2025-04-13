@@ -200,12 +200,6 @@ npm start
 
 
 
-Recommended:
-- ✅ Table view of student data
-- ✅ Bar chart (Students per course)
-- ✅ Pie chart (Active vs Inactive)
-- ✅ Postman screenshot (with JWT request)
-
 ---
 
 ## 📌 Note
