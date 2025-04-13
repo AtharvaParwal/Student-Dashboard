@@ -8,24 +8,33 @@ This is a full-stack MERN application built as part of an internship assignment 
 ## 📁 Project Structure
 
 ```
-.
-├── backend
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middlewares/
+Student-Dashboard/
+├── backend/
 │   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── student.controller.js
+│   ├── middlewares/
+│   │   └── auth.middleware.js
+│   ├── models/
+│   │   ├── student.model.js
+│   │   └── user.model.js
+│   ├── routes/
+│   │   ├── student.route.js
+│   │   └── user.route.js
+│   ├── .env
 │   ├── server.js
-│   └── .env
-└── frontend
-    ├── public/
-    ├── src/
-    │   ├── components/
-    │   ├── pages/
-    │   ├── styles/
-    │   ├── App.js
-    │   └── index.js
-    └── .env
+│   └── package.json
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── .env
+│   └── package.json
 ```
 
 ---
@@ -101,9 +110,10 @@ REACT_APP_BACKEND_URL=http://localhost:5000
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/micro-http-service.git
-cd micro-http-service
+git clone https://github.com/AtharvaParwal/Student-Dashboard.git
+cd Student-Dashboard
 ```
+
 
 ### 2. Setup Backend
 
@@ -127,11 +137,19 @@ npm start
 
 ## 🧪 Testing & Visualization
 
-### Backend
+### Backend Testing using Postman:
+  
+- `POST /register`
+![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/acd876de-c460-4857-8a15-98c847525596)
 
-- Test API using Postman:
-  - `POST /login` - get JWT token
-  - `GET /students` - attach JWT token in headers
+- `POST /login` - get JWT token
+![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/5c347a4a-280a-48d2-8d6e-1235982d4b94)
+
+- `GET /students` - attach JWT token in headers
+![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/a1bc3227-65b7-4cc1-bc42-2060cd14b248)
+    
+ 
+
 
 ### Frontend
 
@@ -142,20 +160,22 @@ npm start
 ---
 
 ## 🖼️ Frontend Output: 
+- Register Page:
 ![Screenshot 2025-04-13 12 59 31](https://github.com/user-attachments/assets/b9a0cced-edaf-4bf8-86a9-6f9fbe32b68f)
 
+- Login Page:
 ![Screenshot 2025-04-13 12 55 19](https://github.com/user-attachments/assets/5d32534a-a9a5-443e-b127-0cfd3cb7f5fb)
 
+- Video of Student Dashboard with All the features:
 [Click here to watch the demo video of Dashboard](https://drive.google.com/file/d/1sqa8HDM_9t5z1s7lhqQ_8mkazCblb9h8/view?usp=drive_link)
 
-## 🖼️ Backend Testing on Postman: 
-![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/5c347a4a-280a-48d2-8d6e-1235982d4b94)
+- Dashboard output: 
+![Screenshot 2025-04-13 13 19 55](https://github.com/user-attachments/assets/abe325fc-d8ee-4d66-8d96-248588d6fd5f)
 
-![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/acd876de-c460-4857-8a15-98c847525596)
+![Screenshot 2025-04-13 13 20 06](https://github.com/user-attachments/assets/84f5cf1c-6006-44e3-9f55-2b7b40126e1f)
 
-![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/248c380e-9487-4c66-995a-5f3030d481c4)
+![Screenshot 2025-04-13 13 20 21](https://github.com/user-attachments/assets/ed29eb50-7a01-4b89-8170-369c5972f9ec)
 
-![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/a1bc3227-65b7-4cc1-bc42-2060cd14b248)
 
 
 Recommended:
