@@ -12,12 +12,13 @@ Student-Dashboard/
 │   ├── config/
 │   │   └── db.js
 │   ├── controllers/
-│   │   └── student.controller.js
+│   │   ├── student.controller.js
+│   │   └── auth.controller.js
 │   ├── middlewares/
-│   │   └── auth.middleware.js
+│   │   └── authMiddleware.js
 │   ├── models/
-│   │   ├── student.model.js
-│   │   └── user.model.js
+│   │   ├── Student.js
+│   │   └── User.js
 │   ├── routes/
 │   │   ├── student.route.js
 │   │   └── user.route.js
@@ -28,9 +29,27 @@ Student-Dashboard/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/
+│   │   │   ├── ActivePieChart.js
+│   │   │   ├── ActiveStudents.js
+│   │   │   ├── AverageAge.js
+│   │   │   ├── GroupedByCourse.js
+│   │   │   └── StudentTable.js
 │   │   ├── pages/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Login.js
+│   │   │   └── Register.js
 │   │   ├── styles/
+│   │   │   ├── ActiveStudents.css
+│   │   │   ├── AverageAge.css
+│   │   │   ├── Dashboard.css
+│   │   │   ├── form.css
+│   │   │   ├── GroupedByCourse.css
+│   │   │   └── StudentTable.css
+│   │   ├── utils/
+│   │   │   └── auth.js
+│   │   ├── App.css
 │   │   ├── App.js
+│   │   ├── App.test.js
 │   │   └── index.js
 │   ├── .env
 │   └── package.json
@@ -160,15 +179,20 @@ npm start
 
 ## 🖼️ Frontend Output: 
 - Register Page:
+- 
 ![Screenshot 2025-04-13 12 59 31](https://github.com/user-attachments/assets/b9a0cced-edaf-4bf8-86a9-6f9fbe32b68f)
 
 - Login Page:
+- 
 ![Screenshot 2025-04-13 12 55 19](https://github.com/user-attachments/assets/5d32534a-a9a5-443e-b127-0cfd3cb7f5fb)
 
-- Video of Student Dashboard with All the features:
+
+## Video of Student Dashboard with All the features:
 [Click here to watch the demo video of Dashboard](https://drive.google.com/file/d/1sqa8HDM_9t5z1s7lhqQ_8mkazCblb9h8/view?usp=drive_link)
 
-- Dashboard output: 
+
+- Dashboard output:
+- 
 ![Screenshot 2025-04-13 13 19 55](https://github.com/user-attachments/assets/abe325fc-d8ee-4d66-8d96-248588d6fd5f)
 
 ![Screenshot 2025-04-13 13 20 06](https://github.com/user-attachments/assets/84f5cf1c-6006-44e3-9f55-2b7b40126e1f)
