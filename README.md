@@ -187,12 +187,11 @@ npm start
 ![Screenshot 2025-04-13 12 55 19](https://github.com/user-attachments/assets/5d32534a-a9a5-443e-b127-0cfd3cb7f5fb)
 
 
-## Video of Student Dashboard with All the features:
-[Click here to watch the demo video of Dashboard](https://drive.google.com/file/d/1sqa8HDM_9t5z1s7lhqQ_8mkazCblb9h8/view?usp=drive_link)
+## Video of Student Dashboard with All the features: [Click here to watch the demo video of Dashboard](https://drive.google.com/file/d/1sqa8HDM_9t5z1s7lhqQ_8mkazCblb9h8/view?usp=drive_link)
 
 
 - Dashboard output:
-- 
+
 ![Screenshot 2025-04-13 13 19 55](https://github.com/user-attachments/assets/abe325fc-d8ee-4d66-8d96-248588d6fd5f)
 
 ![Screenshot 2025-04-13 13 20 06](https://github.com/user-attachments/assets/84f5cf1c-6006-44e3-9f55-2b7b40126e1f)
