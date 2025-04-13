@@ -1,0 +1,27 @@
+.average-age-box {
+    margin: 20px auto;
+    padding: 1rem 2rem;
+    border: 2px solid #3477db;
+    border-radius: 8px;
+    background-color: #e6f0ff;
+    max-width: 400px;
+    text-align: center;
+    font-size: 1.1rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .average-age-box h3 {
+    margin-bottom: 10px;
+    color: #2255aa;
+  }
+  
+
+.dark-theme .average-age-box {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #3477db;
+}
+
+.dark-theme .average-age-box h3 {
+  color: #90caf9;
+}

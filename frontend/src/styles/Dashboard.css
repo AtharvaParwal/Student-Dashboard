@@ -1,0 +1,157 @@
+.dashboard-container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding-top: 85rem; 
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.scroll-target {
+  scroll-margin-top: 6rem;
+}
+.button-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 1rem; 
+  background-color: #105cb3;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  z-index: 1000;
+  height: 4rem; 
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.button-container button {
+  padding: 8px 12px;
+  font-size: 0.9rem; 
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0077ff;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin: 0.2rem 0; 
+}
+
+.button-container button:hover {
+  background-color: #005fd4;
+  color: #ffffff;
+}
+
+.content-section {
+  margin-top: 2rem;
+  scroll-margin-top: 4rem;
+}
+
+.content-section > div {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+}
+
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-theme .content-section > div {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-theme .button-container {
+  background-color: #0d47a1;
+}
+
+.dark-theme .button-container button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.dark-theme .button-container button:hover {
+  background-color: #1565c0;
+  color: #ffffff;
+}
+
+
+.logout-button {
+  background-color: #ff4444 !important;
+  color: white !important;
+  border-color: #ff4444 !important;
+}
+
+.logout-button:hover {
+  background-color: #cc0000 !important;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.dark-theme .modal-content {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.confirm-button {
+  background-color: #ff4444;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #0077ff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-button:hover {
+  background-color: #cc0000;
+}
+
+.cancel-button:hover {
+  background-color: #005fd4;
+}

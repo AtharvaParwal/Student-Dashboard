@@ -1,0 +1,22 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

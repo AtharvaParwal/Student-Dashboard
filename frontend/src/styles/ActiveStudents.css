@@ -1,0 +1,43 @@
+.active-students-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #009688; 
+}
+
+.active-students-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.active-students-table th,
+.active-students-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.active-students-table th {
+  background-color: #f4f4f4;
+}
+
+/* Dark theme styles */
+.dark-theme .active-students-container {
+  background: #1e1e1e;
+  color: #ffffff;
+  border: 2px solid #4db6ac; 
+}
+
+.dark-theme .active-students-table th,
+.dark-theme .active-students-table td {
+  border: 1px solid #444;
+  color: #ffffff;
+}
+
+.dark-theme .active-students-table th {
+  background-color: #2d2d2d;
+}
