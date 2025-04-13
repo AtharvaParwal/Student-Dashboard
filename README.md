@@ -143,13 +143,18 @@ npm start
 
 ## 🖼️ Frontend Output: 
 ![Screenshot 2025-04-13 12 59 31](https://github.com/user-attachments/assets/b9a0cced-edaf-4bf8-86a9-6f9fbe32b68f)
+
 ![Screenshot 2025-04-13 12 55 19](https://github.com/user-attachments/assets/5d32534a-a9a5-443e-b127-0cfd3cb7f5fb)
+
 [Click here to watch the demo video of Dashboard](https://drive.google.com/file/d/1sqa8HDM_9t5z1s7lhqQ_8mkazCblb9h8/view?usp=drive_link)
 
 ## 🖼️ Backend Testing on Postman: 
 ![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/5c347a4a-280a-48d2-8d6e-1235982d4b94)
+
 ![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/acd876de-c460-4857-8a15-98c847525596)
+
 ![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/248c380e-9487-4c66-995a-5f3030d481c4)
+
 ![Screenshot 2025-04-13 13 12 53](https://github.com/user-attachments/assets/a1bc3227-65b7-4cc1-bc42-2060cd14b248)
 
 
