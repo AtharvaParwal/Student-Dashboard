@@ -1,4 +1,3 @@
-```markdown
 # Micro HTTP Service - Student Data Visualizer
 
 This is a full-stack MERN application built as part of an internship assignment at **Eraah**. It fetches student details from a provided mock API, stores and processes them securely in a backend service, and displays the data in a React frontend along with visual charts and graphs.
@@ -190,4 +189,3 @@ Recommended:
 
 This project was developed as part of a technical assignment for Eraah to demonstrate skills in the MERN stack, backend API design, secure authentication, and frontend data visualization.
 
-```
